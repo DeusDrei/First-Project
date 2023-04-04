@@ -1,0 +1,250 @@
+body{
+    font-family: 'DynaPuff', cursive;
+}
+.nav-bar{
+    border-radius: 0px 50px 50px 0px;
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    width: 700px;
+    z-index: 2;
+}
+ul{
+    padding: 20px 20px 20px 100px;
+    list-style-type: none;
+}
+ul li{
+    font-size: 17px;
+    display: inline-block;
+}
+ul li a{
+    padding: 20px 25px 20px 25px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.6s ease-in-out;
+}
+a:hover{
+    border-radius: 50px;
+    background-color: gray;
+    color: white;
+}
+a:active{
+    background-color: gray;
+    color: white;
+}
+.class1{
+    border-width: 3px;
+    border-left: none;
+    border-right: none;
+}
+.class2{    
+    padding: 300px 0px 0px 330px;
+}
+img{
+    width: 75px;
+
+}
+#logo{
+    margin-bottom: 5px;
+    left: 40px;
+    position: fixed;
+}
+.background{
+    z-index: 1;
+}
+.marin-pic{
+    float: right;
+    position: relative;
+    margin-top: -400px;
+    margin-right: 300px;
+    z-index: 2;
+}
+.background-animation #pic1{
+    position: absolute;
+    top: -100px;
+    margin-left: 500px;
+    animation-name: try;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 5s;
+}
+.background-animation #pic2{
+    position: absolute;
+    margin-left: 300px;
+    animation-name: try1;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.background-animation #pic3{
+    position: absolute;
+    margin-left: 800px;
+    top: -150px;
+    animation-name: try2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 5s;
+}
+.background-animation #pic4{
+    position: absolute;
+    margin-left: 1200px;
+    animation-name: try3;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.duplicate-animation #pic7{
+    position: absolute;
+    margin-left: 100px;
+    animation-name: try4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.duplicate-animation #pic5{
+    position: absolute;
+    margin-left: 1600px;
+    animation-name: try5;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.duplicate-animation #pic6{
+    position: absolute;
+    margin-left: 1400px;
+    animation-name: try6;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.duplicate-animation #pic8{
+    position: absolute;
+    margin-left: 600px;
+    animation-name: try7;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes try{
+    0%{
+        top: -50px;
+        transform: rotate(0deg);
+        opacity: .5;
+    }
+    75%{
+        opacity: .5;
+    }
+    100%{
+        top: 87%;
+        transform: rotate(540deg);
+        opacity: 0;
+    }
+}
+@keyframes try1{
+    0%{
+        top: -50px;
+        transform: rotate(0deg);
+        opacity: .5;
+    }
+    75%{
+        opacity: .5;
+    }
+    100%{
+        top: 87%;
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+@keyframes try2{
+    0%{
+        top: -100px;
+        transform: rotate(0deg);
+        opacity: .5;
+    }
+    75%{
+        opacity: .5;
+    }
+    100%{
+        top: 80%;
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+@keyframes try3{
+    0%{
+        top: -50px;
+        transform: rotate(0deg);
+        opacity: .5;
+    }
+    75%{
+        opacity: .5;
+    }
+    100%{
+        top: 87%;
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+@keyframes try4{
+    0%{
+        top: -50px;
+        transform: rotate(0deg);
+        opacity: .5;
+    }
+    75%{
+        opacity: .5;
+    }
+    100%{
+        top: 80%;
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+@keyframes try5{
+    0%{
+        top: -50px;
+        transform: rotate(0deg);
+        opacity: .5;
+    }
+    75%{
+        opacity: .5;
+    }
+    100%{
+        top: 87%;
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+@keyframes try6{
+    0%{
+        top: -50px;
+        transform: rotate(0deg);
+        opacity: .5;
+    }
+    75%{
+        opacity: .5;
+    }
+    100%{
+        top: 87%;
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+@keyframes try7{
+    0%{
+        top: -50px;
+        transform: rotate(0deg);
+        opacity: .5;
+    }
+    75%{
+        opacity: .5;
+    }
+    100%{
+        top: 87%;
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
